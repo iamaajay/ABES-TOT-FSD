@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="0" align="center">
+			<tr><td>Product Id:</td><td><input type="text"  name="t1" id="t1"></td></tr>
+			<tr><td>Product Name:</td><td><input type="text" name="t2" id="t2"></td></tr>
+			<tr><td>Details:</td><td><input type="text"   name="t3" id="t3"></td></tr>
+			<tr><td>Price(Rs)</td><td><input type="text"   name="t4" id="t4"></td></tr>
+			<tr><td>Qty In Stock:</td><td><input type="text"  name="t5" id="t5"></td></tr>
+			<tr><td></td><td style="color:red"></td></tr>
+			<tr><td></td><td><input type="button" value="Save" onClick="saveData()" style="width:100px" name="b1"><input type="button" value="Search" style="width:100px" name="b1"></td></tr>
+			<tr><td></td><td><input type="button" value="Update" style="width:100px" name="b1"><input type="button" value="Delete" style="width:100px" name="b1"></td></tr>
+			<tr><td></td><td><input type="button" value="Show Data" onClick="showData()" style="width:100px" name="b1"></td></tr>
+		</table>
+	<hr/>
+	<table align="center" width="80%">
+		<thead>
+			<tr>
+				<td>Id</td>
+				<td>Name</td>
+				<td>Details</td>
+				<td>Price</td>
+				<td>Qty in Stock</td>
+			</tr>
+		</thead>
+		<tbody id="tbl">
+		</tbody>
+	</table>
+</body>
+</html>

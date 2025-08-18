@@ -1,10 +1,30 @@
 *{
     background-color: bisque;
-    color: brown;
+    
     font-size: xx-large;
 }
 h2{
     background-color: cadetblue;
     color: brown;
     font-size: large;
+}
+form{
+    background-color: aquamarine;
+    color: black;
+    font-size: larger;
+}
+body{
+    background-color: brown;
+    color: blueviolet;
+    font-size: larger;
+}
+div~*{
+    background-color: chocolate;
+    color: darkolivegreen;
+    font-size: large;
+}
+p{
+    background-color: brown;
+    color: black;
+    font-size: medium;
 }

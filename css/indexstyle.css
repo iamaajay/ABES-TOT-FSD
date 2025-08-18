@@ -1,0 +1,41 @@
+/* h1{
+    background-color: chocolate;
+}
+p{
+    background-color: coral;
+}
+*{
+    background-color: aqua;
+}
+ #p1{
+    background-color: brown;
+    color: aqua;
+ }
+.paragraph{
+    background-color: aqua;
+    color: bisque;
+    font-size: x-large;
+} */
+ div~p{
+    background-color: aquamarine;
+    color: blue;
+ }
+ p:hover{
+    font-size: x-large;
+    background-color: brown;
+    color: aqua;
+ }
+ p::before{
+    content: "welcome here,Abes engineering college";
+    color: red;
+    font-size: large;
+ }
+ p::after{
+    content: "Hello sir ";
+    background-color: blue;
+    color: red;
+    font-size: xx-large;
+ }
+ p::selection{
+    background-color: black;
+ }

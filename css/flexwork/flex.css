@@ -7,12 +7,18 @@ background-color: yellow;
 margin: 50px;
 flex-direction: row;
 flex-wrap: wrap;
+gap: 5px;
+justify-content: space-evenly;
+align-content: center;
+
 }
 .box1{
     height: 150px;
     width: 200px;
     border: 1px dotted darkblue;
 background-color: gray;
+order: 2;
+
     
 
 }
@@ -21,6 +27,7 @@ background-color: gray;
     width: 200px;
     border: 1px dotted pink;
     background-color: blue;
+    order: 1;
 
 }
 .box3{
@@ -37,9 +44,9 @@ background-color: gray;
     background-color: blueviolet;
 
 }
-.box5{
+/* .box5{
     height: 150px;
     width: 200px;
     border: 1px dotted pink;
     background-color: beige;
-}
+} */

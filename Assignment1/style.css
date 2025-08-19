@@ -25,12 +25,36 @@
     height: 200px;
     width: 200px;
     border: 2px solid black;
+    margin: 1px;
     padding: 0;
 
 }
 .box2{
-    
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(3,1f);
+height: 600px;
+width: 600px;
+/* margin: 1px; */
+padding: 0;
+border: black;
+background-color: lightslategray;    
 
+}
+.box20{
+    height: 200px;
+    width: 150px;
+    border: 1px solid darkred;
+    background-color: lightblue;
+    margin: 1px;
+    padding: 0;
+    color: black;
+
+}
+.box21{
+    height: 200px;
+    width: 150px;
+    border: 1px solid darkolivegreen;
 }
 .box3{
 

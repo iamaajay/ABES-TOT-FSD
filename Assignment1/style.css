@@ -4,7 +4,7 @@
     grid-template-rows: repeat(3 , 1fr);
     
     height: 1200px;
-    width: 800px;
+    width: 1500px;
     
 
 }
@@ -57,5 +57,11 @@ background-color: lightslategray;
     border: 1px solid darkolivegreen;
 }
 .box3{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+    border: 1px solid darkorange;
+    color: black;
+    background-color: lightsteelblue;
 
 }

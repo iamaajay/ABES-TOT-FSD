@@ -1,0 +1,45 @@
+.box{
+    display: flex;
+border: 1px solid red;
+height: 800px;
+width: 800px;
+background-color: yellow;
+margin: 50px;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.box1{
+    height: 150px;
+    width: 200px;
+    border: 1px dotted darkblue;
+background-color: gray;
+    
+
+}
+.box2{
+    height: 150px;
+    width: 200px;
+    border: 1px dotted pink;
+    background-color: blue;
+
+}
+.box3{
+    height: 150px;
+    width: 200px;
+    border: 1px dotted green;
+    background-color: brown;
+
+}
+.box4{
+    height: 150px;
+    width: 200px;
+    border: 1px dotted blueviolet;
+    background-color: blueviolet;
+
+}
+.box5{
+    height: 150px;
+    width: 200px;
+    border: 1px dotted pink;
+    background-color: beige;
+}

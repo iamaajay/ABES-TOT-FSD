@@ -1,0 +1,31 @@
+.h1{
+    background-color: aqua;
+    color: brown;
+    align-items: center;
+    margin: 0%;
+    padding: 2%;
+}
+.container{
+    background-color: aquamarine;
+    color: chocolate;
+    font-size: large;
+    margin: 0%;
+    padding: 2%;
+}
+.comments{
+    background-color: antiquewhite;
+    color: darkcyan;
+    font-size: large;
+    margin: 0%;
+    padding: 2%;
+
+}
+.button{
+    background-color: #030804;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 5px;
+    margin: 7px 0;
+    width: 100%;
+    font-size: 18px;
+}
